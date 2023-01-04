@@ -218,6 +218,11 @@ footer{
         top: 2.5em;
         left: 2.4em;
     }
+    .boton{
+        width: 48%;
+        height: 30px;
+        padding: 5px;
+    }
     .rectangle{
         width: 80%;
         height: 93%;
