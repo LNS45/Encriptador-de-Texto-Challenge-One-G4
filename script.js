@@ -235,5 +235,3 @@ function botoncopiar(){
     enfocarinput();
 }
 
-
-//fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
