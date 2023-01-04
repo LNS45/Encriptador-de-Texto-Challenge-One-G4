@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="imagenes/Vector.png" id="imagen_logo">
+            </div>
+        </header>
+
+        <main>
+            <section class="divisor">
+                <textarea id="input" placeholder="Ingrese el texto aqui"></textarea>
+
+                <div class="reglas">
+                    <ul >
+                        <li id="signo">!</li>
+                        <li id="texto">Solo letras minúsculas y sin acentos</li>
+                    </ul>
+                </div>
+
+                <div class="area_botones">
+                    <button class="boton" id="boton_encriptar" onclick="activarbotonEncriptar()">Encriptar</button>
+                    <button class="boton" id="boton_desencriptar" onclick="activarbotonDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="divisor">
+                <div class="rectangle">
+                    <img src="imagenes/Muñeco.png" id="munieco">
+                    <p id="cuadro_1"> Ningún mensaje fue encontrado  </p>
+                    <textarea id="cuadro_2" readonly >Ingresa el texto que desees encriptar o desencriptar</textarea>
+                    
+                    <button class="boton" id="botoncopiar" onclick="botoncopiar()">Copiar</button>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p id="pie">Sitio web desarrollado por Lorenzo Chavez</p>
+        </footer>
+    </body>
+
+
+
+
+</html>
